@@ -10,14 +10,16 @@
 #     print("It's a warm day")
 #     print("Perfect for a walk")
 # print("Have a great day!")
-
+from pyexpat.errors import messages
 
 age=int(input("Enter your age:"))
 if age < 18:
-    print("You are a minor.")
+    messages = "You are a minor."
 elif 18 <= age < 65:
-    print("You are an adult.")
+    messages = "You are an adult."
 else:
-    print("You are a senior citizen.")
-print("Thank you.")
+    messages = "You are a senior citizen."
+print("Thank you."+messages)
+
+# age = int(input("Enter your age: "))
 
