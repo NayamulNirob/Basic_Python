@@ -28,3 +28,12 @@ print(math.sin(math.pi / 2))
 print(math.cos(math.pi))
 print(math.tan(math.pi / 4))
 print(math.log(100, 10))
+
+print("*" * 6+"Type  Casting"+"*" * 6)
+
+x=input("Enter a number: ")
+y=int(x)+1
+print(type(x))
+print(f"Value of x: {x}"+f" Value of y: {y}")
+
+
