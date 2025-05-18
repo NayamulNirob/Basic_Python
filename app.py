@@ -37,3 +37,9 @@ print(type(x))
 print(f"Value of x: {x}"+f" Value of y: {y}")
 
 
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool([]))
+print(bool({}))
+print(bool(1))
